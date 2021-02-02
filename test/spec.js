@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 
-const app = require("supertest")(require("../src/app"));
+const app = require("supertest")(require("../app"));
 
 describe("Routes", () => {
   describe("GET /", () => {
